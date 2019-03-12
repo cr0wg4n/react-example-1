@@ -21,6 +21,7 @@ const store = createStore(Doctor)
         <div>
             <Route path="/" exact component={DoctorListContainer} />
             <Route path="/crear/" component={DoctorFormContainer} />
+            <Route path="/editar/:id" component={DoctorFormContainer} />
         </div>
         
     </Router>
